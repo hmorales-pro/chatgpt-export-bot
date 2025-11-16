@@ -1,0 +1,8 @@
+node_modules/
+exports/
+*.log
+.env
+session.json
+chrome-profile/
+cookies-export.json
+chatgpt-export-*.json

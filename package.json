@@ -1,0 +1,22 @@
+{
+  "name": "chatgpt-export-bot",
+  "version": "1.0.0",
+  "description": "Bot pour exporter toutes les conversations ChatGPT Workspace au format JSON",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "import-cookies": "node import-cookies.js",
+    "tag": "node tag-conversations.js"
+  },
+  "keywords": ["chatgpt", "export", "automation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
