@@ -10,8 +10,8 @@
     "tag": "node tag-conversations.js"
   },
   "keywords": ["chatgpt", "export", "automation"],
-  "author": "",
-  "license": "MIT",
+  "author": "Hugo Morales",
+  "license": "Apache-2.0",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.32.1",
     "dotenv": "^16.4.5",
